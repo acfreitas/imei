@@ -1,4 +1,4 @@
 imei
 ====
 
-Create IMEI valid in PHP
+Create IMEI (International Mobile Equipment Identity) valid in PHP
