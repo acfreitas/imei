@@ -15,11 +15,12 @@
         <form action="<?php echo $_SERVER['REQUEST_URI']; ?>" id="imei-form" class="form-horizontal" role="form" method="post">
             <div class="form-group">
                 <label for="imei" class="col-lg-2 control-label">IMEI:</label>
-                <label for="code" class="col-lg-2 control-label"><?php require 'imei.php';?></label>
+                <label for="code" id="view-imei" class="col-lg-2 control-label"><?php require 'imei.php';?></label>
             </div>
             <div class="form-group">
                 <div class="col-lg-offset-2 col-lg-10">
-                    <form action="imei.php" method="post"><input type=Submit value="New IMEI" ></form>
+                    <form action="imei.php" method="post">
+                    <input type=Submit id="new-imei" value="New IMEI" ></form>
                 </div>
             </div>
         </form>
