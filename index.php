@@ -8,7 +8,7 @@
 <body>
     <div class="jumbotron">
         <h1>IMEI Generator</h1>
-        <p>Generator of IMEI Aleatory</p>
+        <p>Generator of IMEI aleatory</p>
     </div>
 
     <div class="col-md-6 col-md-offset-3">
